@@ -1,14 +1,14 @@
 ﻿using System;
 
-public class totComissao
+public class TotComissao
 {
-    public totComissao()
+    public TotComissao()
     {
-        comissoes = new List<comissao>();
+        comissoes = new List<Comissao>();
     }
-    public List<comissao> comissoes { get; set; }
+    public List<Comissao> comissoes { get; set; }
 
-    public void add(comissao c)
+    public void add(Comissao c)
     {
         comissoes.Add(c);
     }

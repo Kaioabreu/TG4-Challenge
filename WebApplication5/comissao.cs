@@ -1,6 +1,7 @@
-﻿public class comissao
+﻿
+public class Comissao
 {
-    public comissao(int vend, int month, double value)
+    public Comissao(int vend, int month, double value)
     {
         vendedor = vend;
         mes = month;
